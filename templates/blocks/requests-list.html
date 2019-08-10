@@ -1,0 +1,20 @@
+<div class="card-head cart-body row justify-content-between">
+    <p class="card-date">раздел: <span class="drop">Все &#9660;</span></p>
+    <p class="card-bookmarks">регион: <span class="drop">Новосибирск и область &#9660;</span></p>
+</div>
+<hr>
+{% for num_requests in range(6) %}    
+<div class="card">
+    <div class="card-body">
+        <div class="card-head row justify-content-between">
+            <p class="card-date">вчера, в 21:30</p>
+            <p class="card-bookmarks">&#9733; в закладки</p>
+        </div>
+        <p class="card-text">фбс 24.4.6 50 штук плиты пк 20 ПК 60-120-12 доставка в Новолуг</p>
+        <p class="card-text">Алексей</p>
+        <a href="#" class="btn btn-secondary btn-md">Показать телефон</a>
+        <span>12 просмотров</span>
+    </div>
+</div>
+<hr>
+{% endfor %}
