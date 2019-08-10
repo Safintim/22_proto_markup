@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Заявки
+{% endblock %}
+{% block content %}
+<main>
+    <div class="container page-header">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-header">
+                    <img class="mr-3" src="static/img/logo.png" width="64" alt="Generic placeholder image">
+                    <a href="start_page.html">kupimsami.ru</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container page-content">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="request-list">
+                    <h1>Заявки</h1>
+                    {% include 'blocks/requests-list.html' %}
+                    <div class="text-center">
+                        <button type="button" class="btn btn-secondary btn-md all-requests">Показать еще</button>
+                    </div>
+                    {% include 'blocks/pagination.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container page-footer">
+        {% block footer %}
+        {% include 'blocks/footer.html' %}
+        {% endblock %}
+    </div>
+</footer>
+
+{% endblock %}
