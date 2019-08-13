@@ -11,22 +11,23 @@
 
     <title>
         {% block title %}
-        Base tempate
+            Base tempate
         {% endblock %}
     </title>
   </head>
   <body>
     {% block header %}
-    <header>
-        {% include 'blocks/header.html' %}
-    </header>
+        <header>
+            {% include 'blocks/header.html' %}
+        </header>
     {% endblock %}
     
     {% block content %}  
-    Base content  
-    {% block footer %}
-    Base footer
-    {% endblock footer %}
+        Base content  
+
+        {% block footer %}
+          Base footer
+        {% endblock footer %}
     {% endblock %}
 
 
