@@ -78,6 +78,11 @@ div.request-list div.card-body a{
     font-size: 15px;
 }
 
+div.request-list div.card-body span{
+    font-size: 12px;
+}
+
+
 div.request-list hr {
     margin-top: 4px;
     border: 0;
