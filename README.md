@@ -8,7 +8,7 @@
 * public/ сгенерированный сайт
 * tempates/ базовые шаблоны, во что буду генерироваться статьи.
 
-Посмотреть можно [тут](https://safintim.github.io/22_proto_markup/start_page.html)
+Посмотреть можно [тут](https://safintim.github.io/22_proto_markupp/start_page.html)
 
 
 ## Требования
