@@ -59,13 +59,11 @@ div.request-list div.card-body {
 
 div.request-list div.card-head {
     color: #6c757d;
-    font-weight: bold;
-    padding: 0 20px;
+    font-weight: bold;    
     margin: 0;
 }
 
 div.request-list div.card-body div.card-head {    
-    padding: 1.0rem;
     color: #6c757d;
     font-weight: bold;
 }
