@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends '_base.html' %}
 
 
 {% block title %}
@@ -77,7 +77,7 @@
                 <div class="col-md-12">
                     <div class="request-list">
                         <h1>Свежие заявки</h1>
-                        {% include 'blocks/requests-list.html' %}
+                        {% include 'blocks/_requests-list.html' %}
                         <div class="text-center">
                             <a href="requests.html" role="button" class="btn btn-secondary btn-md all-requests">Посмотреть все
                                 заявки</a>
@@ -87,7 +87,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="reviews col-sm-8 col-lg-6 offset-sm-2 offset-lg-3">
-                    {% include 'blocks/carousel.html' %}
+                    {% include 'blocks/_carousel.html' %}
                 </div>
                 <div class="col-sm-2 col-lg-3 align-self-center text-center">
                     <button type="submit" class="btn btn-light add-review">
@@ -101,7 +101,7 @@
     <footer>
         <div class="container page-footer">
             {% block footer %}
-                {% include 'blocks/footer.html' %}
+                {% include 'blocks/_footer.html' %}
             {% endblock %}
         </div>
     </footer>
